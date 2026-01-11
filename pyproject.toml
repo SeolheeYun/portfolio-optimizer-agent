@@ -1,0 +1,19 @@
+[project]
+name = "portfolio-optimizer"
+version = "0.1.0"
+description = "Portfolio investment ratio optimizer with MCP servers"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.0.0",
+    "yfinance>=0.2.0",
+    "requests>=2.31.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+    "langchain-mcp-adapters>=0.1.0",
+    "langchain-openai>=0.1.0",
+    "langgraph>=0.2.0",
+]
+
+[tool.setuptools]
+py-modules = ["quantitative_server", "qualitative_server", "agent_client", "main"]
