@@ -1,0 +1,19 @@
+stocks:
+  - symbol: SPY
+    name: S&P 500 ETF
+  - symbol: QQQ
+    name: NASDAQ 100 ETF
+
+crypto:
+  - symbol: bitcoin
+    name: Bitcoin
+  - symbol: ethereum
+    name: Ethereum
+
+bonds:
+  - symbol: TLT
+    name: 20+ Year Treasury ETF
+
+gold:
+  - symbol: GLD
+    name: Gold ETF
